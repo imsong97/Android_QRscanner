@@ -11,7 +11,7 @@ SCAN 버튼을 클릭하여 스캐너 실행<br>
 <h4><2020.12기준 설정 방법><h4>
 
 [build.gradle]<br>
-implementation('com.journeyapps:zxing-android-embedded:4.1.0') { transitive = false }
+implementation('com.journeyapps:zxing-android-embedded:4.1.0') { transitive = false } <br>
 implementation 'com.google.zxing:core:3.3.0'
 
 [AndroidMaifest.xml]<br>

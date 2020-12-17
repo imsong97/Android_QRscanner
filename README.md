@@ -15,12 +15,12 @@ implementation('com.journeyapps:zxing-android-embedded:4.1.0') { transitive = fa
 implementation 'com.google.zxing:core:3.3.0'
 
 [AndroidMaifest.xml]<br>
-uses-permission android:name="android.permission.INTERNET"
-uses-permission android:name="android.permission.CAMERA"
-uses-sdk tools:overrideLibrary="com.google.zxing.client.android"
-android:hardwareAccelerated="true"
-activity
-    android:name="com.journeyapps.barcodescanner.CaptureActivity"
-    android:screenOrientation="fullSensor"
-    tools:replace="screenOrientation" >
+uses-permission android:name="android.permission.INTERNET" <br>
+uses-permission android:name="android.permission.CAMERA" <br>
+uses-sdk tools:overrideLibrary="com.google.zxing.client.android" <br>
+android:hardwareAccelerated="true" <br>
+activity <br>
+    android:name="com.journeyapps.barcodescanner.CaptureActivity" <br>
+    android:screenOrientation="fullSensor" <br>
+    tools:replace="screenOrientation" <br>
 activity

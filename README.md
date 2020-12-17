@@ -15,6 +15,7 @@ implementation('com.journeyapps:zxing-android-embedded:4.1.0') { transitive = fa
 implementation 'com.google.zxing:core:3.3.0'
 
 [AndroidMaifest.xml]<br>
+xmlns:tools="http://schemas.android.com/tools"<br>
 uses-permission android:name="android.permission.INTERNET" <br>
 uses-permission android:name="android.permission.CAMERA" <br>
 uses-sdk tools:overrideLibrary="com.google.zxing.client.android" <br>

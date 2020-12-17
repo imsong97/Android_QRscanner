@@ -8,13 +8,13 @@
 SCAN 버튼을 클릭하여 스캐너 실행<br>
 스캔이 되면, Result에 스캔한 값 표시
 
-<h4>2020.12기준 설정 방법<h4>
+<h4><2020.12기준 설정 방법><h4>
 
-[build.gradle]
+[build.gradle]<br>
 implementation('com.journeyapps:zxing-android-embedded:4.1.0') { transitive = false }
 implementation 'com.google.zxing:core:3.3.0'
 
-[AndroidMaifest.xml]
+[AndroidMaifest.xml]<br>
 <uses-permission android:name="android.permission.INTERNET"/>
 <uses-permission android:name="android.permission.CAMERA"/>
 <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
